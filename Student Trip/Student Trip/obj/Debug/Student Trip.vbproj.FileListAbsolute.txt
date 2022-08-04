@@ -1,0 +1,14 @@
+C:\Users\FileSharing\Desktop\Projects\Visual Basic\ISD\Student Trip\Student Trip\bin\Debug\Student Trip.exe.config
+C:\Users\FileSharing\Desktop\Projects\Visual Basic\ISD\Student Trip\Student Trip\bin\Debug\Student Trip.exe
+C:\Users\FileSharing\Desktop\Projects\Visual Basic\ISD\Student Trip\Student Trip\bin\Debug\Student Trip.pdb
+C:\Users\FileSharing\Desktop\Projects\Visual Basic\ISD\Student Trip\Student Trip\bin\Debug\Student Trip.xml
+C:\Users\FileSharing\Desktop\Projects\Visual Basic\ISD\Student Trip\Student Trip\obj\Debug\Student_Trip.frmStudentTrip.resources
+C:\Users\FileSharing\Desktop\Projects\Visual Basic\ISD\Student Trip\Student Trip\obj\Debug\Student_Trip.Resources.resources
+C:\Users\FileSharing\Desktop\Projects\Visual Basic\ISD\Student Trip\Student Trip\obj\Debug\Student Trip.vbproj.GenerateResource.Cache
+C:\Users\FileSharing\Desktop\Projects\Visual Basic\ISD\Student Trip\Student Trip\obj\Debug\Student Trip.exe
+C:\Users\FileSharing\Desktop\Projects\Visual Basic\ISD\Student Trip\Student Trip\obj\Debug\Student Trip.xml
+C:\Users\FileSharing\Desktop\Projects\Visual Basic\ISD\Student Trip\Student Trip\obj\Debug\Student Trip.pdb
+C:\Users\FileSharing\Desktop\Projects\Visual Basic\ISD\Student Trip\Student Trip\bin\Debug\Student Trip.exe.manifest
+C:\Users\FileSharing\Desktop\Projects\Visual Basic\ISD\Student Trip\Student Trip\bin\Debug\Student Trip.application
+C:\Users\FileSharing\Desktop\Projects\Visual Basic\ISD\Student Trip\Student Trip\obj\Debug\Student Trip.exe.manifest
+C:\Users\FileSharing\Desktop\Projects\Visual Basic\ISD\Student Trip\Student Trip\obj\Debug\Student Trip.application

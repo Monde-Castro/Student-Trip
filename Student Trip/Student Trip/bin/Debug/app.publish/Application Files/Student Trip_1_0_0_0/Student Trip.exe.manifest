@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Student Trip.exe" version="1.0.0.0" publicKeyToken="af2c6c84b0504714" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Student Trip" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Student Trip.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Student Trip.exe" size="38400">
+      <assemblyIdentity name="Student Trip" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nnQV0TRFAPh6997NfnnfchPJ+3Y8XJNdqoWkzraA+20=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Student Trip.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-59A6TN8\FileSharing" issuerKeyHash="40717f04dc8d5c8bbb785668da02fa318d4b3480" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9WIN4U08/R9qYluS4npAxOntTZWSEAdbmzlk6GHu298=</DigestValue></Reference></SignedInfo><SignatureValue>svm21bjsw5d1Fy+I8T5vMNpCqh8Sx7+A1EhqZTTa9MpPtY4jXm7Hs8rztYONoyOOVgTUzljXwK99uX3+reP9jBv+JbqACZ5ke8KsUkc1QAj7qk5JTd7LEvkqH+ESUXHDtNLm/YXxddTQ/NIZsKshUeWNLnOqa1Iwz9/HT1i6yQw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zEyMa+N8mY8vyekypQ9f1Jgwm9iKOH0qiWti6+kymGQVfXT/fTLuCtt08U9m4zVnUkoIjAcrhc6tIgaY67zpDPAYWTQ5XR3eQ11QDlCNT2+2exDfaKNwlLSOSxZg9P4zkYulvUa3me6f2Wmac/SLwgPBQ8gFci3pImfDhtUNYSk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dfdbee61e864399b5b071092954dede9c4407ae2925b626a1ffd3c4de10d62f5" Description="" Url=""><as:assemblyIdentity name="Student Trip.exe" version="1.0.0.0" publicKeyToken="af2c6c84b0504714" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-59A6TN8\FileSharing</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8qVUB0mdcl9uq/AYBTIwlO7efV1q/pAH73CL3H/nztc=</DigestValue></Reference></SignedInfo><SignatureValue>t9bXZM3zngg1cQkuq4IKORafr59qFHH3Us4mvQHtzzNydZVzu2i5ClJvaEf0qmrUR6wgsViBLjfNfMRhdzIs0DFKidNf07B/CXjnTYm24926aUkmta5dHDrabkBibapa4G2A+Sofl6p8AFJI3r3LMcxG8yTOsjvWHPd5YaXjS0M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zEyMa+N8mY8vyekypQ9f1Jgwm9iKOH0qiWti6+kymGQVfXT/fTLuCtt08U9m4zVnUkoIjAcrhc6tIgaY67zpDPAYWTQ5XR3eQ11QDlCNT2+2exDfaKNwlLSOSxZg9P4zkYulvUa3me6f2Wmac/SLwgPBQ8gFci3pImfDhtUNYSk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQcFlDRiag37NLuY3UXvC4ajANBgkqhkiG9w0BAQsFADBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtADUAOQBBADYAVABOADgAXABGAGkAbABlAFMAaABhAHIAaQBuAGcwHhcNMjIwMzI0MTMyMzQwWhcNMjMwMzI0MTkyMzQwWjBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtADUAOQBBADYAVABOADgAXABGAGkAbABlAFMAaABhAHIAaQBuAGcwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMxMjGvjfJmPL8npMqUPX9SYMJvYijh9KolrYuvpMphkFX10/30y7grbdPFPZuM1Z1JKCIwHK4XOrSIGmOu86QzwGFk0OV0d3kNdUA5QjU9vtnsQ32ijcJS0jksWYPT+M5GLpb1Gt5nun9lpmnP0i8IDwUPIBXIt6SJnw4bVDWEpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAY65NFc7U34pEX9Zgm3IR9PuxTiF/olN3iCsbRSsZ6gbSKBbj0EzAPNyDuhAos5ouI2zWwTzo+3o6os2PRQpVFR8GWwTJ1MQnDr2H1lKTp43k9tYOcN65DHIvYPyvteZs4QTRmCBh5rgQiMi3T1E3JOjrwHOj+L904aiGhsgPwvc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
